@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title> Hangman game</title>
+
+  </head>
+  <body onload = "init()">
+
+<div class="wrapper">
+   <h1>Hangman</h1>
+   <p class="team-name">Team bumblebee</p>
+    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+</div>
+
+<div class="wrapper">
+     
+    <p id="catagoryName"></p>
+  <div id="hold">
+  </div>
+  <div id="buttons">
+    </div> 
+    <p id="mylives" class="bold"></p>
+    <p id="clue">Clue -</p>
+    <div class="move"> 
+     <canvas id="stickman"></canvas>
+     </div>
+<div class="container">
+      <button id="hint" class="btn btn--stripe btn--radius">Hint</button>
+      <button id="reset" class="btn btn--stripe btn--radius">Play again</button>
+      <audio id="music" loop src="aud/Game-Menu_Looping.mp3" autoplay> </audio>
+
+</div>
+ 
+</div>
+    
+    <div class="home">
+      <a href="hang.html"><button class="homebtn">HOME</button></a>
+    </div>
+
+
+
+
+
+  
+
+  
+
+
+
+
+<script src="js/index.js"></script>  
+</body>
+</html>
